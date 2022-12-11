@@ -2,9 +2,27 @@
 
 TECHEDEN 2.0: Safety
 
+## How to use
+
+Requirements:
+- Postgres
+- Node.js
+
+Steps:
+- Setup a local postgres database on port 5432, user postgres
+- Install postgis via stack builder
+- Create table via code given in .sql file in frontend/db
+- open terminal and type 'npm ci' (installs packages) in frontend and backend folders.
+- 'npm start' in frontend and backend to start localhost
+- Done! Open http://localhost:3000 to see the application
+
+## Presentation
+https://www.canva.com/design/DAFUa8YoDBM/GeQ9yzhVQXRmMS2Ue49gSA/edit?utm_content=DAFUa8YoDBM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## Problem statement
 **Selected problem statement 25:**
 Develop a tool that helps people in war-ridden countries navigate around safely
+
 
 ## What it does
 A **highly scalable application that uses** real-time information about on-ground situations to inform users and helps them evacuate safely.
