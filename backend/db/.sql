@@ -1,3 +1,6 @@
+CREATE DATABASE vithackers;
+CREATE EXTENSION pgcrypto;
+CREATE EXTENSION postgis;
 
 
 CREATE TABLE IF NOT EXISTS danger (
