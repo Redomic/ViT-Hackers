@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap%27);
+/* @import url(https://fonts.googleapis.com/css?family=Titillium+Web:100,200,300,400,500,600,700,800,900&display=swap%27); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --backgroundColor: #1d1d1d;
+  --secondaryColor: #3c096c;
+  --accentColor: 
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  font-family: Montserrat, serif;
+}
